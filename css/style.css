@@ -133,22 +133,27 @@ h6 {
    background-color: #000;
 
 }
-.tshirts{
+
+.tshirts {
    padding: 50px 0;
 }
+
 .tshirts__description {
    font-size: 25px;
 }
-.tshirts__title{
+
+.tshirts__title {
    font-size: 35px;
    margin-bottom: 20px;
 }
+
 .tshirts__item {
    display: flex;
    justify-content: center;
    align-items: center;
    margin-bottom: 60px;
 }
+
 .tshirts__text {
    flex-basis: 700px;
 }
@@ -157,5 +162,5 @@ h6 {
 .tshirts__image {
    max-width: 150px;
    padding-right: 40px;
-   
+
 }
