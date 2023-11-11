@@ -129,7 +129,7 @@ h6 {
    border-color: #000;
 
    padding: 10px 60px;
-   border-radius: 40%;
+   border-radius: 5%;
    background-color: #000;
 
 }
@@ -163,4 +163,24 @@ h6 {
    max-width: 150px;
    padding-right: 40px;
 
+}
+.find-us__wrapper {
+   display: flex;
+   justify-content: center;
+   gap: 80px;
+}
+.find-us__title {
+font-size: 30px;
+padding-bottom: 50px;
+}
+.find-us__adres {
+   font-size: 20px;
+}
+.find-us__map-title {
+   font-size: 24px;
+   font-weight: 500;
+   padding-bottom: 30px;
+}
+.find-us__map-wrapper{
+   flex-basis: 150px;
 }
