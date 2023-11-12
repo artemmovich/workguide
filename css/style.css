@@ -165,63 +165,76 @@ h6 {
    padding-right: 40px;
 
 }
+
 .find-us {
    padding: 20px 0;
 }
+
 .find-us__wrapper {
    display: flex;
    justify-content: center;
    gap: 80px;
 }
+
 .find-us__title {
-font-size: 30px;
-padding-bottom: 50px;
+   font-size: 30px;
+   padding-bottom: 50px;
 }
+
 .find-us__adres {
    font-size: 20px;
 }
+
 .find-us__map-title {
    font-size: 24px;
    font-weight: 500;
    padding-bottom: 30px;
 }
-.find-us__map-wrapper{
-   
-}
+
+.find-us__map-wrapper {}
+
 @media(max-width: 500px) {
    .main-page__title {
       font-size: 40px;
       padding-bottom: 30px;
       text-align: center;
    }
+
    .main-page__subtitle {
       font-size: 20px;
    }
+
    .main-page__link {
       font-size: 20px;
-      
-   
+
+
    }
+
    .tshirts__title {
       font-size: 20px;
    }
+
    .tshirts__description {
       font-size: 14px;
    }
+
    .find-us__wrapper {
       display: flex;
       gap: 20px;
       flex-direction: column;
    }
+
    .find-us__title {
       font-size: 20px;
       padding-bottom: 20px;
-      }
-      .find-us__adres {
-         font-size: 15px;
-      }
-      .find-us__map-title {
-         font-size: 20px;
-      }
+   }
+
+   .find-us__adres {
+      font-size: 15px;
+   }
+
+   .find-us__map-title {
+      font-size: 20px;
+   }
 
 }
