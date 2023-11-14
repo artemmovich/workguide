@@ -89,7 +89,8 @@ h6 {
 }
 
 .main-page {
-   background-color: #990f02
+   background-color: #990f02;
+   overflow: hidden;
 }
 
 .container {
