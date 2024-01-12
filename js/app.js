@@ -38,10 +38,12 @@ const menuBtn = document.querySelector(".menu-btn")
 const titleBtn = document.querySelector(".intro__title")
 const menuMobile = document.querySelector(".menu-mobile")
 menuBtn.addEventListener('click', () => {
-   menuMobile.classList.toggle('menu--open');
+   menuMobile.classList.toggle('menu--open'),
+   menuBtn.classList.toggle('active');
 })
 titleBtn.addEventListener('click', () => {
    menuMobile.classList.toggle('menu--open');
+   menuBtn.classList.toggle('active');
 });
 
 
