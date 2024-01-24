@@ -198,7 +198,7 @@ h6 {
 }
 
 .rules {
-   padding: 30px 0;
+   padding: 80px 0;
 }
 
 .rules__wrapper {
@@ -213,7 +213,7 @@ h6 {
 }
 
 .tshirts {
-   padding: 50px 0;
+   padding-top: 50px;
 }
 
 .tshirts__description {
@@ -251,7 +251,7 @@ h6 {
 }
 
 .find-us {
-   padding: 20px 0;
+   padding-top: 50px;
 }
 
 .find-us__wrapper {
@@ -275,7 +275,12 @@ h6 {
    padding-bottom: 30px;
 }
 
-.find-us__map-wrapper {}
+.first__steps-title {
+   font-size: 35px;
+}
+.first__steps {
+   padding: 80px 0;
+}
 
 @media(max-width: 600px) {
    .header {
@@ -300,6 +305,11 @@ h6 {
       flex-direction: column;
       justify-content: space-between;
    }
+   .first__steps-title {
+      font-size: 35px;
+      margin-bottom: 25px;
+   }
+   
 
    .menu-btn span {
       z-index: 10;
@@ -407,4 +417,3 @@ h6 {
    font-size: 20px;
 }
 
-}

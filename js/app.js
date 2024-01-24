@@ -39,7 +39,7 @@ jQuery(document).ready(function ($) {
       checkScroll(scrollPos, introH)
    });
    function checkScroll(scrollPos, introH) {
-      if (scrollPos > 544) {
+      if (scrollPos > 544 ) {
          header.addClass("fixed");
       } else {
          header.removeClass("fixed");
