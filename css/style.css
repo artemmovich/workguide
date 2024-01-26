@@ -194,7 +194,8 @@ h6 {
    text-align: center;
    color: #fff;
    line-height: 1.4;
-   padding-top: 200px;
+   padding: 200px 5px 0 5px;
+   
 }
 
 .rules {
