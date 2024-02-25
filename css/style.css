@@ -88,6 +88,7 @@ h6 {
    font-size: inherit;
    font-weight: 400;
 }
+/*main page(first page with choosing langueges)*/
 
 .main-page {
    background-color: #990f02;
@@ -106,22 +107,28 @@ h6 {
    display: flex;
    flex-direction: column;
    align-items: center;
+   text-align: center;
 
 }
 
 
 
-
 .main-page__title {
+   font-size: 40px;
+   padding-bottom: 30px;
+   text-align: center;
    font-size: 60px;
    color: #fff;
 }
 
 .main-page__subtitle {
+   font-size: 20px;
    font-size: 40px;
    color: #fff;
-
 }
+
+
+
 
 .main-page__buttons {}
 
@@ -142,6 +149,8 @@ h6 {
 
 }
 
+
+/*header*/
 .header {
    background-color: #990f02;
    padding: 20px 0;
@@ -181,6 +190,8 @@ h6 {
    display: none;
 }
 
+ 
+/*intro section*/
 .intro {
    height: 100vh;
 
@@ -195,9 +206,9 @@ h6 {
    color: #fff;
    line-height: 1.4;
    padding: 200px 5px 0 5px;
-   
 }
 
+/*warehouse rules*/
 .rules {
    padding: 80px 0;
 }
@@ -213,6 +224,31 @@ h6 {
    padding-bottom: 20px;
 }
 
+
+
+/* first steps (section with instructions)*/
+.first__steps-title {
+   font-size: 35px;
+}
+
+.first__steps {
+   margin-top: 30px;
+   padding: 80px 0;
+}
+
+.instruction__item {
+   padding-bottom: 40px;
+}
+
+.menu-link {
+   color: #fff;
+   display: block;
+   font-size: 3vh;
+   padding: 20px 0;
+}
+
+
+/*tshirts section*/
 .tshirts {
    padding-top: 50px;
 }
@@ -251,24 +287,27 @@ h6 {
 
 }
 
+.tshirts__title {
+   font-size: 20px;
+}
+
+.tshirts__description {
+   font-size: 10px;
+}
+
+/* find us section(map) */
 .find-us {
    padding-top: 50px;
 }
 
 .find-us__wrapper {
    display: flex;
-   justify-content: center;
-   gap: 80px;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
 }
 
-.find-us__title {
-   font-size: 30px;
-   padding-bottom: 50px;
-}
 
-.find-us__adres {
-   font-size: 20px;
-}
 
 .find-us__map-title {
    font-size: 24px;
@@ -276,22 +315,37 @@ h6 {
    padding-bottom: 30px;
 }
 
-.first__steps-title {
-   font-size: 35px;
+.find-us__adres {
+   font-size: 20px;
+   
 }
-.first__steps {
-   margin-top: 30px;
-   padding: 80px 0;
+
+
+.find-us__title {
+   font-size: 30px;
+   padding-bottom: 50px;
 }
-.instruction__item {
-   padding-bottom: 40px;
+.find-us__text{
+   padding-bottom: 10px;
+}
+
+
+/* footer */
+.footer__wrapper {
+   background-color: #000435;
+   text-align: center;
+
+}
+
+.footer__title {
+   margin-top: 40px;
+   padding: 5px 0 5px 0;
+   color: #fff;
 }
 
 @media(max-width: 600px) {
    .header {
-
       padding: 10px 0;
-
    }
 
    .intro__title {
@@ -310,11 +364,12 @@ h6 {
       flex-direction: column;
       justify-content: space-between;
    }
+
    .first__steps-title {
       font-size: 35px;
       margin-bottom: 25px;
    }
-   
+
 
 
    .menu-btn span {
@@ -373,53 +428,18 @@ h6 {
       text-align: center;
       padding-top: 140px;
    }
-}
 
-.menu-link {
-   color: #fff;
-   display: block;
-   font-size: 3vh;
-   padding: 20px 0;
-}
+   .find-us__wrapper {
+      align-items: start;
+      text-align: start;
+   }
 
-.main-page__title {
-   font-size: 40px;
-   padding-bottom: 30px;
-   text-align: center;
-}
+   .footer__title {
+      font-size: 10px;
+   }
 
-.main-page__subtitle {
-   font-size: 20px;
+   .find-us__title {
+      font-size: 20px;
+      padding-bottom: 20px;
+   }
 }
-
-.main-page__link {
-   font-size: 20px;
-}
-
-.tshirts__title {
-   font-size: 20px;
-}
-
-.tshirts__description {
-   font-size: 10px;
-}
-
-.find-us__wrapper {
-   display: flex;
-   gap: 20px;
-   flex-direction: column;
-}
-
-.find-us__title {
-   font-size: 20px;
-   padding-bottom: 20px;
-}
-
-.find-us__adres {
-   font-size: 15px;
-}
-
-.find-us__map-title {
-   font-size: 20px;
-}
-
